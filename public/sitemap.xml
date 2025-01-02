@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/film-crew-role-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/5-best-free-daily-planner-apps-for-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2073,7 +2078,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/grade-calculator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/how-to-create-a-vision-board-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/job-application-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2123,6 +2138,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/resume-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/sample-lesson-plan-math-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2139,6 +2159,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/smart-goal-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/sop-template-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

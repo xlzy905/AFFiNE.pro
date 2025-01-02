@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 02 Jan 2025 10:39:40 GMT</lastBuildDate>
-    <pubDate>Thu, 02 Jan 2025 10:39:40 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jan 2025 10:47:23 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jan 2025 10:47:23 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -43,6 +43,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/film-crew-role-template</guid>
       <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/iRkcjsAaoIHLgUIAnJW2mWD9Pxuuxbck3olVic1-KGc=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>The 5 Best Open Source Miro Alternatives in 2025</title>
+      <description><![CDATA[Miro is an online collaborative whiteboard platform - this article introduces some of the best open-source alternatives you might like to try.]]></description>
+      <link>https://affine.pro/blog/five-best-open-source-miro-alternatives-2023</link>
+      <guid isPermaLink="true">https://affine.pro/blog/five-best-open-source-miro-alternatives-2023</guid>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Z32JbaDqyVRLDPyfCvDyFeoQPBzcA9ijRYBLoG5RcH4=" type="image/png" />
     </item>
     
     <item>
@@ -1753,15 +1762,6 @@
       <guid isPermaLink="true">https://affine.pro/blog/best-8-free-event-planning-templates-checklists-customize</guid>
       <pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/_eeDZx-vIycPb7Je0yZzI1arO_96uYEo8tx3ciLZOPw=" type="image/png" />
-    </item>
-    
-    <item>
-      <title>The 5 Best Open Source Miro Alternatives in 2024</title>
-      <description><![CDATA[Miro is an online collaborative whiteboard platform - this article introduces some of the best open-source alternatives you might like to try.]]></description>
-      <link>https://affine.pro/blog/five-best-open-source-miro-alternatives-2023</link>
-      <guid isPermaLink="true">https://affine.pro/blog/five-best-open-source-miro-alternatives-2023</guid>
-      <pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Z32JbaDqyVRLDPyfCvDyFeoQPBzcA9ijRYBLoG5RcH4=" type="image/png" />
     </item>
     
     <item>

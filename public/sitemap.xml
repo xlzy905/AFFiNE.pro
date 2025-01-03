@@ -38,6 +38,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/15-top-examples-saas-application</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/6-free-cusomizable-onenote-alternative-templates-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1059,11 +1064,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/faq</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/15-top-examples-saas-application</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

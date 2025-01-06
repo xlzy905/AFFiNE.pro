@@ -48,7 +48,27 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/budget-templates-free</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/content-calendar-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/dnd-character-sheet</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/printable-to-do-list</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/trip-payment-package-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

@@ -3,8 +3,8 @@ import path from "node:path";
 import { rootDir } from "./utils";
 import { WorkspacePage, WorkspacePageContent } from "affine-reader/blog";
 
-export async function loadContents(dir: 'blog' | 'templates') {
-  const existingBlogMetas = new Map<string, WorkspacePageContent>();
+export async function loadContents<Dir extends 'blog' | 'templates'>(dir: Dir) {
+  const existingBlogMetas = new Map<string, Dir extends 'blog' ? WorkspacePageContent : TemplateContentFileMeta>();
   const files = await fs.readdir(path.join(rootDir, "content", dir));
   for (const file of files) {
     const content = await fs.readJson(path.join(rootDir, "content", dir, file), "utf8");

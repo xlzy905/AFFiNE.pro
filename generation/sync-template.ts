@@ -104,13 +104,13 @@ async function crawlTemplates() {
       const userTemplateMeta = pages.find(
         (meta) => meta.id === template.templateId
       );
-      const oldTemplateMeta = existingTemplateMetas.get(template.id);
-      if (oldTemplateMeta && oldUserTemplateMeta?.updatedDate === userTemplateMeta?.updatedDate) {
-        if (oldTemplateMeta.slug) {
-          visitedSlugs.add(oldTemplateMeta.slug);
-        }
-        continue;
-      } else {
+
+      let t = {
+        ...existingTemplateMetas.get(template.id),
+        ...template
+      };
+
+      if (oldUserTemplateMeta?.updatedDate !== userTemplateMeta?.updatedDate) {
         const zip = await reader.getDocSnapshot(template.templateId);
         if (!zip) {
           console.log(`no snapshot for ${template.templateId}`);
@@ -142,7 +142,7 @@ async function crawlTemplates() {
           title: template.title || "",
         });
 
-        const t = {
+        t = {
           ...template,
           featured,
           cateTitle: category.title,
@@ -154,14 +154,13 @@ async function crawlTemplates() {
           useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
           previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
         };
-
-        await fs.writeFile(
-          path.join(rootDir, "content", "templates", `${template.slug}.json`),
-          stringify(t, { space: "  " })
-        );
-        visitedSlugs.add(template.slug);
-        console.log(`saved ${template.slug}`);
       }
+      await fs.writeFile(
+        path.join(rootDir, "content", "templates", `${template.slug}.json`),
+        stringify(t, { space: "  " })
+      );
+      visitedSlugs.add(template.slug);
+      console.log(`saved ${template.slug}`);
     }
   }
 

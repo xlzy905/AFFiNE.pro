@@ -33,6 +33,26 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/agenda-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-budget-app</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/body-fat-calculator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/dnd-character-sheet</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/10-best-free-ai-virtual-assistants-improve-productivity</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

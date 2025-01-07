@@ -53,6 +53,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/budgeting-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/content-calendar-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -63,7 +68,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/note-taking-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/printable-to-do-list</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/social-media-content-calendar-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

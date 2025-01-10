@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 09 Jan 2025 09:38:39 GMT</lastBuildDate>
-    <pubDate>Thu, 09 Jan 2025 09:38:39 GMT</pubDate>
+    <lastBuildDate>Fri, 10 Jan 2025 05:40:15 GMT</lastBuildDate>
+    <pubDate>Fri, 10 Jan 2025 05:40:15 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>10 Best free AI image generators of 2025: Tested and reviewed</title>
+      <description><![CDATA[Discover the top 10 free AI image generators of 2025, thoroughly tested and reviewed. Unleash your creativity with cutting-edge tools that transform your ideas into stunning visuals effortlessly.]]></description>
+      <link>https://affine.pro/blog/best-ai-image-generator</link>
+      <guid isPermaLink="true">https://affine.pro/blog/best-ai-image-generator</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/IJV2OTtSlkxq15Oji-naW6E5KQyOzOzfoA2zRCFi4jQ=" type="image/png" />
+    </item>
     
     <item>
       <title>Best 10 Discord Alternatives for Work of 2025</title>
@@ -1375,15 +1384,6 @@
       <guid isPermaLink="true">https://affine.pro/blog/10-free-editable-raci-chart-templates-examples</guid>
       <pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/xkCaj615Oko_keqD3T2x164f0GaKW2OUPIeVbID6huE=" type="image/png" />
-    </item>
-    
-    <item>
-      <title>10 Best free AI image generators of 2024: Tested and reviewed</title>
-      <description><![CDATA[Discover the top 10 free AI image generators of 2024, thoroughly tested and reviewed. Unleash your creativity with cutting-edge tools that transform your ideas into stunning visuals effortlessly.]]></description>
-      <link>https://affine.pro/blog/best-ai-image-generator</link>
-      <guid isPermaLink="true">https://affine.pro/blog/best-ai-image-generator</guid>
-      <pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/IJV2OTtSlkxq15Oji-naW6E5KQyOzOzfoA2zRCFi4jQ=" type="image/png" />
     </item>
     
     <item>

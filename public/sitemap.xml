@@ -53,6 +53,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/best-daily-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-free-change-management-tools-software</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -69,6 +74,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/how-to-write-best-agile-project-charter-template-streamline-your-workflow-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/teacher-planners</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -653,11 +663,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/teacher-planners</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/the-7-key-stages-marketing-sales-pipeline-visual-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -809,11 +814,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/5-best-offline-alternatives-to-notion</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/best-daily-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

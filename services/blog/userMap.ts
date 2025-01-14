@@ -114,7 +114,7 @@ export const USER_MAP: Record<
   },
   'Shiwen Shen': {
     name: 'Shiwen Shen',
-    avatar: '/ShiwenShen.jepg',
+    avatar: '/ShiwenShen.jpeg',
     dec: 'UX Designer',
   },
   'Jackie Peng': {

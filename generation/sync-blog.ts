@@ -77,6 +77,20 @@ async function crawlBlogs() {
       content.slug.replaceAll("/", "") + ".json"
     );
 
+    content.md = content.md?.replaceAll(
+      /\[(.*)\]\(LinkedPage:([\w-_]*)\)/g,
+      (substr, title, pageId) => {
+        // find the page title
+        const linkedPage = content.linkedPages?.find((p) => p.id === pageId);
+        if (!linkedPage) {
+          return substr;
+        }
+        return `[${title || linkedPage.title}(/${linkedPage.slug})](/${
+          linkedPage.id
+        })`;
+      }
+    )
+
     delete content.parsedBlocks;
     delete content.linkedPages;
     // @ts-ignore

@@ -33,7 +33,32 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/habit-tracker-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/vision-board-guide</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/workout-plan-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-8-free-event-planning-templates-checklists-customize</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/time-blocking-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-10-time-blocking-templates</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1118,11 +1143,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/top-10-time-blocking-templates</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/resource-allocation-guide-peak-efficiency</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2078,6 +2098,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-homework-helper-free</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/ai-note-taker-free-for-students</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2314,6 +2339,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/vision-board-for-middle-school-students</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/vision-board-ideas-and-tips</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

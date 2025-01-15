@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/10-best-ai-productivity-tools-must-know-upgrade-workflow-improve-business</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/habit-tracker-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -769,11 +774,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/free-best-8-storyboard-templates-examples</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/10-best-ai-productivity-tools-must-know-upgrade-workflow-improve-business</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

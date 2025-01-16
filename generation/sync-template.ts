@@ -71,7 +71,7 @@ async function crawlTemplates() {
   }
 
   const existingPageMetas = await loadPageMetas();
-  const existingTemplateMetas = await loadContents('templates');
+  const existingTemplates = await loadContents('templates');
 
   const visitedSlugs = new Set<string>();
 
@@ -107,8 +107,10 @@ async function crawlTemplates() {
 
       const featured = index === 0;
 
+      const oldExistingTemplate = existingTemplates.get(template.id);
+
       let t = {
-        ...existingTemplateMetas.get(template.id),
+        ...oldExistingTemplate,
         ...template,
         index,
         featured,
@@ -118,6 +120,7 @@ async function crawlTemplates() {
         cateSlug: category.slug,
         cateIndex: categoryIndex,
       };
+
 
       if (oldUserTemplateMeta?.updatedDate !== userTemplateMeta?.updatedDate) {
         const zip = await reader.getDocSnapshot(template.templateId);
@@ -191,7 +194,7 @@ async function crawlTemplates() {
     throw new Error("Duplicate slugs found");
   }
 
-  for (const [id, meta] of existingTemplateMetas.entries()) {
+  for (const [id, meta] of existingTemplates.entries()) {
     if (meta.slug && !visitedSlugs.has(meta.slug)) {
       console.log(`Deleting ${meta.title} (${id})`);
       await fs.unlink(path.join(rootDir, "content", "templates", meta.slug.replaceAll("/", "") + ".json"));

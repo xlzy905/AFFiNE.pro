@@ -1,5 +1,7 @@
 [
   {
+    "trash": true,
+    "trashDate": 1737024471024,
     "id": "t7o8eYYN34bQoyGVAe4JZ",
     "title": "",
     "createDate": 1737020562742,
@@ -5390,7 +5392,7 @@
     "id": "xrGx9FZLFm7n7-ofg9egC",
     "title": "One Pager Template",
     "createDate": 1732510542321,
-    "updatedDate": 1736498818830,
+    "updatedDate": 1737025321297,
     "guid": "xrGx9FZLFm7n7-ofg9egC",
     "properties": {
       "id": "xrGx9FZLFm7n7-ofg9egC",
@@ -9478,7 +9480,7 @@
     "id": "4kDX4gDFREAJ7ykJ2zHI6",
     "title": "One Pager Template",
     "createDate": 1727167125395,
-    "updatedDate": 1736236578483,
+    "updatedDate": 1737025325785,
     "guid": "4kDX4gDFREAJ7ykJ2zHI6",
     "properties": {}
   },

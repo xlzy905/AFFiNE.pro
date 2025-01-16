@@ -12,8 +12,10 @@
   "createDate": 1737011244121,
   "created": 1736985600000,
   "description": "Meet your objectives with the Vision Planner 2025. This strategic planning tool assists you in establishing clear objectives, tracking progress, and maintaining accountability. Our templates are ideal for both people and companies, simplifying the planning process and keeping you focused on your future vision. Begin your journey to success today!",
+  "featured": false,
   "guid": "WPuoNtup_rGo0_W01bOUd",
   "id": "WPuoNtup_rGo0_W01bOUd",
+  "index": 3,
   "linkedPageIds": [
     "BZr4qp6NruMV5PsB0bPrP",
     "2c1TLEdEIfcLPBd5wHCE8",
@@ -48,6 +50,6 @@
   "templateId": "BZr4qp6NruMV5PsB0bPrP",
   "templateMode": "edgeless",
   "title": "Vision Planner 2025",
-  "updatedDate": 1737011809948,
+  "updatedDate": 1737021899974,
   "valid": true
 }

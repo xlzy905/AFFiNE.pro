@@ -12,8 +12,10 @@
   "createDate": 1737009319179,
   "created": 1723161600000,
   "description": "Standard Operating Procedures (SOPs) are detailed, written instructions that describe how to perform a routine activity within an organization. These step-by-step guidelines ensure consistency, quality, and efficiency in executing tasks across different departments or teams. SOPs are crucial for maintaining operational standards, reducing errors, and facilitating training of new employees.",
+  "featured": false,
   "guid": "hliAyOPzsQuAyQycLd2AP",
   "id": "hliAyOPzsQuAyQycLd2AP",
+  "index": 1,
   "linkedPageIds": [
     "InvGqGM9ouQuJZG_n1dVb",
     "8YL3XQH4Y2ZW1fzDQ8Jcp",

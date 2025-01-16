@@ -105,9 +105,14 @@ async function crawlTemplates() {
         (meta) => meta.id === template.templateId
       );
 
+      const featured = index === 0;
+
       let t = {
         ...existingTemplateMetas.get(template.id),
         ...template,
+        index,
+        featured,
+        intro: featured ? category.description : undefined,
         cateTitle: category.title,
         cateName: category.category,
         cateSlug: category.slug,
@@ -129,8 +134,6 @@ async function crawlTemplates() {
         await uploadTemplateSnapshot(`${template.templateId}.${hash}`, buffer);
         const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
 
-        const featured = index === 0;
-
         const params = new URLSearchParams({
           workspaceId: reader.workspaceId,
           docId: template.templateId,
@@ -148,9 +151,6 @@ async function crawlTemplates() {
 
         t = {
           ...t,
-          featured,
-          index,
-          intro: featured ? category.description : undefined,
           useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
           previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
         };

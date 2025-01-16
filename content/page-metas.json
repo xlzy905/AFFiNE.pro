@@ -1,5 +1,19 @@
 [
   {
+    "id": "nfvRK2V-AU91chmknBm_6",
+    "title": "Expense Tracker",
+    "createDate": 1737015369429,
+    "tags": [
+      "eAcH08DeDWIsfWpi_o3U1"
+    ],
+    "updatedDate": 1737015821449,
+    "guid": "nfvRK2V-AU91chmknBm_6",
+    "properties": {
+      "id": "nfvRK2V-AU91chmknBm_6",
+      "primaryMode": "page"
+    }
+  },
+  {
     "id": "h2RJ4SBAr-aspO8R7D6xC",
     "title": "Habit Tracker 2025",
     "createDate": 1737012567958,
@@ -510,7 +524,7 @@
     "tags": [
       "2i_K2Clf-912zwLqrcfiB"
     ],
-    "updatedDate": 1736494547486,
+    "updatedDate": 1737015800647,
     "guid": "9z7upiqfMI-BLblFjePfI",
     "properties": {
       "id": "9z7upiqfMI-BLblFjePfI",
@@ -10363,7 +10377,7 @@
     "id": "kG1OTX3iYGomMlKXT74DI",
     "title": "meta:template-list",
     "createDate": 1724335129603,
-    "updatedDate": 1737011738734,
+    "updatedDate": 1737015340592,
     "guid": "kG1OTX3iYGomMlKXT74DI",
     "properties": {}
   },

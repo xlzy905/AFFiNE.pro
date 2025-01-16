@@ -38,7 +38,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/chart-maker</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/free-ai-image-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/habit-tracker-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/homework-helper-ai</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

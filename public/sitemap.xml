@@ -2833,6 +2833,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/vision-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/wedding-decor-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2948,7 +2953,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-digital-planner</loc>
+        <loc>https://affine.pro/templates/category-undefined</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

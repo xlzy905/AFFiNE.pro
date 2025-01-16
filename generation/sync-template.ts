@@ -107,7 +107,11 @@ async function crawlTemplates() {
 
       let t = {
         ...existingTemplateMetas.get(template.id),
-        ...template
+        ...template,
+        cateTitle: category.title,
+        cateName: category.category,
+        cateSlug: category.slug,
+        cateIndex: categoryIndex,
       };
 
       if (oldUserTemplateMeta?.updatedDate !== userTemplateMeta?.updatedDate) {
@@ -143,12 +147,8 @@ async function crawlTemplates() {
         });
 
         t = {
-          ...template,
+          ...t,
           featured,
-          cateTitle: category.title,
-          cateName: category.category,
-          cateSlug: category.slug,
-          cateIndex: categoryIndex,
           index,
           intro: featured ? category.description : undefined,
           useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,

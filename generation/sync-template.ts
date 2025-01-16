@@ -127,7 +127,7 @@ async function crawlTemplates() {
         }
         const buffer = Buffer.from(await zip.arrayBuffer());
         const hash = createHash("sha256")
-          .update(template.updated?.toString() || "")
+          .update(template.updatedDate?.toString() || "")
           .digest("hex")
           .slice(0, 8);
         console.log(`uploading ${template.templateId}.${hash} to ${R2_BUCKET}`);

@@ -2753,6 +2753,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/sop-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/standard-operating-procedure-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2954,6 +2959,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/category-chore-chart</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-undefined</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

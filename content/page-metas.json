@@ -1,5 +1,18 @@
 [
   {
+    "id": "hliAyOPzsQuAyQycLd2AP",
+    "title": "Standard Operating Procedure (SOP) Template",
+    "createDate": 1737009319179,
+    "updatedDate": 1737010096979,
+    "guid": "hliAyOPzsQuAyQycLd2AP",
+    "properties": {
+      "id": "hliAyOPzsQuAyQycLd2AP",
+      "primaryMode": "page"
+    }
+  },
+  {
+    "trash": true,
+    "trashDate": 1737010319766,
     "id": "sqTDVu6KJb-KgwxRgrHsW",
     "title": "",
     "createDate": 1736995507703,
@@ -1028,9 +1041,6 @@
     "id": "InvGqGM9ouQuJZG_n1dVb",
     "title": "SOP Template ( Onboarding New Employees )",
     "createDate": 1736073572264,
-    "tags": [
-      "2i_K2Clf-912zwLqrcfiB"
-    ],
     "updatedDate": 1736073574950,
     "guid": "InvGqGM9ouQuJZG_n1dVb",
     "properties": {
@@ -10332,7 +10342,7 @@
     "id": "kG1OTX3iYGomMlKXT74DI",
     "title": "meta:template-list",
     "createDate": 1724335129603,
-    "updatedDate": 1736995493142,
+    "updatedDate": 1737010272602,
     "guid": "kG1OTX3iYGomMlKXT74DI",
     "properties": {}
   },

@@ -7,7 +7,7 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/BRL4L1ARrJkiCzj_EDKyQc_GYrgK0hKQZ3kzCDFyiSw=",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/fx0kpbck6FL_T3qzLsJAJoyNqyIurWtj6nq7bU5kslQ=",
   "coverAlt": "ADHD Planner",
   "createDate": 1727272410038,
   "created": 1727136000000,
@@ -17,7 +17,7 @@
   "id": "WRme1N6eOQIyZPBXVbXc8",
   "index": 29,
   "linkedPageIds": [
-    "im3ssGRwdcWejsk0fw-i5",
+    "gZTw7XGmre9iBjv6cMSsV",
     "4SBqQ6lf4oJjmlRejOhyH",
     "y3GwFuCD7PCzfmAihbd5m",
     "EzCZzdu56cBrqqDab4RtK",
@@ -47,11 +47,11 @@
   "tags": [
     "Digital Planner"
   ],
-  "template": "LinkedPage:im3ssGRwdcWejsk0fw-i5:page",
-  "templateId": "im3ssGRwdcWejsk0fw-i5",
-  "templateMode": "page",
+  "template": "LinkedPage:gZTw7XGmre9iBjv6cMSsV:edgeless",
+  "templateId": "gZTw7XGmre9iBjv6cMSsV",
+  "templateMode": "edgeless",
   "title": "ADHD Planner",
-  "updatedDate": 1729470345359,
+  "updatedDate": 1737018643451,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=im3ssGRwdcWejsk0fw-i5&pageId=WRme1N6eOQIyZPBXVbXc8&name=ADHD+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fim3ssGRwdcWejsk0fw-i5.e3b0c442.zip",
   "valid": true
 }

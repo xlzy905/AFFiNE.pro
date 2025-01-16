@@ -1,5 +1,17 @@
 [
   {
+    "id": "Rtu7M05j9tnDv3feuzPCy",
+    "title": "One Pager Template",
+    "createDate": 1737025470278,
+    "tags": [],
+    "updatedDate": 1737025578360,
+    "guid": "Rtu7M05j9tnDv3feuzPCy",
+    "properties": {
+      "id": "Rtu7M05j9tnDv3feuzPCy",
+      "primaryMode": "edgeless"
+    }
+  },
+  {
     "trash": true,
     "trashDate": 1737024471024,
     "id": "t7o8eYYN34bQoyGVAe4JZ",
@@ -5392,7 +5404,7 @@
     "id": "xrGx9FZLFm7n7-ofg9egC",
     "title": "One Pager Template",
     "createDate": 1732510542321,
-    "updatedDate": 1737025321297,
+    "updatedDate": 1737026060787,
     "guid": "xrGx9FZLFm7n7-ofg9egC",
     "properties": {
       "id": "xrGx9FZLFm7n7-ofg9egC",

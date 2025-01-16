@@ -9,6 +9,7 @@ import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
   target: "https://app.affine.pro",
+  blogBasePath: '/blog'
 });
 
 declare module "affine-reader/blog" {

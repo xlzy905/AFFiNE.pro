@@ -17,6 +17,7 @@ import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
   target: "https://app.affine.pro",
+  blogBasePath: '/template'
 });
 
 const R2_BUCKET = "affine-cdn";

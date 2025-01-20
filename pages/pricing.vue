@@ -24,7 +24,7 @@
                 span AFFiNE.Pro
               .tab.tab-selfhost( @click="() => currentPricingType = 'selfhost'" )
                   | Self Hosted
-            .host-tips We host, no technical setup required.
+            .host-tips {{ currentPricingType === 'cloud' ? 'We host, no technical setup required.' : 'You host, control, and are responsible for your data.' }}
 
         .mobile-version.flex-1
           el-dropdown(

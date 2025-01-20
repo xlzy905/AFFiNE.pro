@@ -1,5 +1,16 @@
 [
   {
+    "id": "y-Wxr7f4zEr57SqVQl7qa",
+    "title": "Weekly Schedule Template",
+    "createDate": 1737360434840,
+    "updatedDate": 1737360470582,
+    "guid": "y-Wxr7f4zEr57SqVQl7qa",
+    "properties": {
+      "id": "y-Wxr7f4zEr57SqVQl7qa",
+      "primaryMode": "page"
+    }
+  },
+  {
     "id": "9w1KOZ5k6jzh-ICVWfWjj",
     "title": "Weekly Schedule Template",
     "createDate": 1737128051563,
@@ -15,8 +26,7 @@
     "id": "LRPeUNkvb0bj89YQC2g_i",
     "title": "Weekly Schedule Template",
     "createDate": 1737124894338,
-    "tags": [],
-    "updatedDate": 1737346638095,
+    "updatedDate": 1737360467883,
     "guid": "LRPeUNkvb0bj89YQC2g_i",
     "properties": {
       "id": "LRPeUNkvb0bj89YQC2g_i",
@@ -10426,7 +10436,7 @@
     "id": "kG1OTX3iYGomMlKXT74DI",
     "title": "meta:template-list",
     "createDate": 1724335129603,
-    "updatedDate": 1737024244956,
+    "updatedDate": 1737360962513,
     "guid": "kG1OTX3iYGomMlKXT74DI",
     "properties": {}
   },

@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 21 Jan 2025 07:40:04 GMT</lastBuildDate>
-    <pubDate>Tue, 21 Jan 2025 07:40:04 GMT</pubDate>
+    <lastBuildDate>Tue, 21 Jan 2025 08:43:34 GMT</lastBuildDate>
+    <pubDate>Tue, 21 Jan 2025 08:43:34 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -114,7 +114,7 @@
       <link>https://affine.pro/blog/workout-plan-template</link>
       <guid isPermaLink="true">https://affine.pro/blog/workout-plan-template</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/gQoGyEC3kORsTRkrwHrgTFXotHZEHi5jTLXfm6d_lgI=" type="image/png" />
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
     </item>
     
     <item>
@@ -2284,6 +2284,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/best-pkm-app-for-sharing-a-digital-garden</guid>
       <pubDate>Tue, 24 Sep 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/zYkALy9-ezOpQGOuV2EzCHKLQxFOQuFKjwAxjDSw_ag=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>2025 Best Personal Knowledge Management (PKM) Tool Review</title>
+      <description><![CDATA[Discover the top personal knowledge management (PKM) tools of 2025 to boost your productivity and unlock the power of your information. Comprehensive reviews of the best PKM apps, including AFFiNE, Notion, Logseq, Obsidian, and more. Find the right fit for your unique knowledge management needs.]]></description>
+      <link>https://affine.pro/blog/best-pkm-tool-review</link>
+      <guid isPermaLink="true">https://affine.pro/blog/best-pkm-tool-review</guid>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/BytVdSmNv03ECbDFQCBEIj1S2IORcZwYnlGl_usoowE=" type="image/png" />
     </item>
     
     <item>

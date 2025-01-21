@@ -3,8 +3,8 @@
   "authors": [
     "Allen"
   ],
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Kmw2TO7_sIx-OEamWBmkQaLF8KPwhNGFvTDs7WcegE0=",
-  "coverAlt": "vision board guide",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=",
+  "coverAlt": "",
   "createDate": 1736922834880,
   "created": 1733788800000,
   "description": "Unlock your potential with vision board quotes. Create inspiring boards for 2025 goals using digital and printable quotes.",
@@ -32,8 +32,10 @@
   "tags": [
     "Content"
   ],
+  "thumbnail": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Kmw2TO7_sIx-OEamWBmkQaLF8KPwhNGFvTDs7WcegE0=",
+  "thumbnailAlt": "vision board guide",
   "title": "2025 Vision Board Guide: Manifest Your Dreams with Creative Inspiration",
   "updated": 1736899200000,
-  "updatedDate": 1736925434499,
+  "updatedDate": 1737442444982,
   "valid": true
 }

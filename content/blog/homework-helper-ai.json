@@ -3,8 +3,8 @@
   "authors": [
     "Allen"
   ],
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/SPbIJPxMz7cYGEWhDBIeJxsZmm3EjEperr7JyEtJfBg=",
-  "coverAlt": "AI Homework Helpers",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=",
+  "coverAlt": "",
   "createDate": 1736925521679,
   "created": 1735516800000,
   "description": "Discover top AI tools for homework help. Enhance learning with personalized assistance and instant feedback across subjects.",
@@ -32,8 +32,10 @@
   "tags": [
     "Content"
   ],
+  "thumbnail": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/SPbIJPxMz7cYGEWhDBIeJxsZmm3EjEperr7JyEtJfBg=",
+  "thumbnailAlt": "AI Homework Helpers",
   "title": "Best Homework Helper AI Tools for Fast Solutions",
   "updated": 1736899200000,
-  "updatedDate": 1736995673439,
+  "updatedDate": 1737442528914,
   "valid": true
 }

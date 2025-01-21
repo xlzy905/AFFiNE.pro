@@ -3,8 +3,8 @@
   "authors": [
     "Allen"
   ],
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/CDNvUmUjaiISBWlKSD0auoXhBkjiRHEwRch_dh_piCA=",
-  "coverAlt": "ATS Resume Templates",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=",
+  "coverAlt": "",
   "createDate": 1737430530632,
   "created": 1735516800000,
   "description": "Boost your job search with free ATS resume templates. Optimize your resume for ATS and enhance your chances of landing interviews.",
@@ -32,8 +32,10 @@
   "tags": [
     "Content"
   ],
+  "thumbnail": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/CDNvUmUjaiISBWlKSD0auoXhBkjiRHEwRch_dh_piCA=",
+  "thumbnailAlt": "ATS Resume Templates",
   "title": "ATS Resume Template Free: Unlock Job Success Today",
   "updated": 1736899200000,
-  "updatedDate": 1737430612905,
+  "updatedDate": 1737432824539,
   "valid": true
 }

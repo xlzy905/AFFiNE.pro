@@ -283,6 +283,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/marketing-action-plan</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-free-whiteboard-layout-ideas-organization</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -359,6 +364,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-free-smart-sheet-alternatives-for-project-management-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/concept-maps-definition-features-benefits-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1433,11 +1443,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/marketing-action-plan</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/11-free-customizable-weekly-schedule-planner-templates-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1554,11 +1559,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/affine-0-11-0-launch-day1-elevation-celebration-bug-fixes-ux-delight</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/concept-maps-definition-features-benefits-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

@@ -4,7 +4,7 @@
     "title": "Cornell Notes Example: Master the Best Note-Taking System for Success",
     "createDate": 1737431651502,
     "tags": [],
-    "updatedDate": 1737443284203,
+    "updatedDate": 1737527482145,
     "guid": "ZWOUf6Gn4c2PX9Gke4-Ko",
     "properties": {
       "id": "ZWOUf6Gn4c2PX9Gke4-Ko",
@@ -174,14 +174,14 @@
     }
   },
   {
-    "trash": true,
-    "trashDate": 1737010319766,
     "id": "sqTDVu6KJb-KgwxRgrHsW",
     "title": "",
     "createDate": 1736995507703,
     "tags": [
       "eAcH08DeDWIsfWpi_o3U1"
     ],
+    "trash": true,
+    "trashDate": 1737010319766,
     "guid": "sqTDVu6KJb-KgwxRgrHsW",
     "properties": {
       "id": "sqTDVu6KJb-KgwxRgrHsW",
@@ -11980,7 +11980,7 @@
     "title": "Crafting an Effective One-Page Marketing Plan: A Step-by-Step Guide",
     "createDate": 1707009130813,
     "tags": [],
-    "updatedDate": 1707009133773,
+    "updatedDate": 1737519130206,
     "guid": "zGS2O9g3ySqXGNbeLPcg0",
     "properties": {}
   },

@@ -53,7 +53,9 @@ declare global {
     cover?: string | null
     coverAlt?: string;
     created: number | null
+    createdDate: number | null
     updated: number | null
+    updatedDate: number | null
     md: string
     layout: string | null
     publish?: boolean
@@ -73,5 +75,7 @@ declare global {
     useTemplateUrl: string;
     previewUrl: string;
     index: number;
+    templateId: string;
+    templateMode: string;
   }
 }

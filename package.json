@@ -11,9 +11,10 @@
     "sync-blog": "tsx generation/sync-blog.ts",
     "sync-changelog": "tsx generation/sync-changelog.ts",
     "sync-template": "tsx generation/sync-template.ts",
+    "sync-template-v2": "tsx generation/sync-template-v2.ts",
     "gen-rss": "tsx generation/gen-rss.ts",
     "gen-sitemap": "tsx generation/gen-sitemap.ts",
-    "gen:all": "yarn sync-blog && yarn sync-changelog && yarn sync-template && yarn gen-rss && yarn gen-sitemap"
+    "gen:all": "yarn sync-blog && yarn sync-changelog && yarn sync-template && yarn sync-template-v2 && yarn gen-rss && yarn gen-sitemap"
   },
   "type": "module",
   "dependencies": {
@@ -59,7 +60,7 @@
     "@unocss/extractor-pug": "^0.49.4",
     "@unocss/nuxt": "^0.49.4",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
-    "affine-reader": "^3.4.5",
+    "affine-reader": "^3.5.4",
     "fs-extra": "^11.2.0",
     "json-stable-stringify": "^1.1.1",
     "lodash": "^4.17.21",

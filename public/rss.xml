@@ -5,9 +5,36 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 29 Jan 2025 13:14:58 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jan 2025 13:14:58 GMT</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2025 10:09:04 GMT</lastBuildDate>
+    <pubDate>Fri, 31 Jan 2025 10:09:04 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>Homework Tracker Mastery: Boost Productivity with Smart Tools &amp; Strategies</title>
+      <description><![CDATA[Master homework tracking with tools and strategies to boost productivity and manage deadlines effectively.]]></description>
+      <link>https://affine.pro/blog/homework-tracker</link>
+      <guid isPermaLink="true">https://affine.pro/blog/homework-tracker</guid>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Homework Tracker Mastery: Boost Productivity with Smart Tools &amp; Strategies</title>
+      <description><![CDATA[Revolutionize physics with AI tools, enhancing problem-solving speed, accuracy, and accessibility for researchers and students.]]></description>
+      <link>https://affine.pro/blog/physics-ai-problem-solver</link>
+      <guid isPermaLink="true">https://affine.pro/blog/physics-ai-problem-solver</guid>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Physics Solver Mastery: AI-Powered Strategies &amp; Tools to Boost Your Skills</title>
+      <description><![CDATA[Master physics problem-solving with AI solvers. Enhance learning efficiency and tackle complex equations effortlessly.]]></description>
+      <link>https://affine.pro/blog/physics-solver</link>
+      <guid isPermaLink="true">https://affine.pro/blog/physics-solver</guid>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
     
     <item>
       <title>Homework AI Revolution: Transforming Learning Efficiency with Smart Tools</title>

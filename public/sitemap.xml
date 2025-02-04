@@ -33,6 +33,26 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/physics-ai-solver</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/tutoring-on-homework-ai</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/accurate-homework-helper</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/chatgpt-homework</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/homework-tracker</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -43,7 +63,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/physics-ai</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/physics-problem-solver</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/physics-solver</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/science-ai-solver</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

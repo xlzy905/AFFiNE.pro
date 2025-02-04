@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 04 Feb 2025 04:51:30 GMT</lastBuildDate>
-    <pubDate>Tue, 04 Feb 2025 04:51:30 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Feb 2025 05:12:43 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Feb 2025 05:12:43 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -59,6 +59,24 @@
       <description><![CDATA[Master team building in Pokémon Emerald with strategic tips, starter selection, and advanced competitive play strategies for ultimate success.]]></description>
       <link>https://affine.pro/blog/pokemon-emerald-team-builder</link>
       <guid isPermaLink="true">https://affine.pro/blog/pokemon-emerald-team-builder</guid>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Pokémon Team Builder: Dominate Battles with Pro Tips &amp; Tools</title>
+      <description><![CDATA[Master Pokémon team building with strategic tips, tools, and expert advice for competitive battles and RPG playthroughs.]]></description>
+      <link>https://affine.pro/blog/pokemon-team-builder</link>
+      <guid isPermaLink="true">https://affine.pro/blog/pokemon-team-builder</guid>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Pokemon Team Maker: Build, Strategize, and Dominate with Pro-Level Squad Templates</title>
+      <description><![CDATA[Master Pokemon team building with top tools and strategies. Optimize your squad for competitive play with expert tips and visual tools.]]></description>
+      <link>https://affine.pro/blog/pokemon-team-maker</link>
+      <guid isPermaLink="true">https://affine.pro/blog/pokemon-team-maker</guid>
       <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
     </item>

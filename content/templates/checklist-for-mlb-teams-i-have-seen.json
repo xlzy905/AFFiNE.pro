@@ -15,7 +15,7 @@
   "featured": false,
   "guid": "SgcXEvWC92Fr8r_rlo7cM",
   "id": "SgcXEvWC92Fr8r_rlo7cM",
-  "index": 5,
+  "index": 6,
   "linkedPageIds": [
     "tiDw6fvHyOmlkRnya_mS5",
     "p0KhkDuY-LF5PQvzkotj0",
@@ -39,6 +39,7 @@
     "best-open-source-notion-alternatives"
   ],
   "relatedTemplates": [
+    "checklist-template",
     "weekly-deep-cleaning-checklist",
     "wedding-planner-checklist"
   ],

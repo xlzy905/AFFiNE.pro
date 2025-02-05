@@ -78,7 +78,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/pokemon-team-planners</loc>
+        <loc>https://affine.pro/blog/pokemon-team-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -698,7 +698,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/pokemon-team-planner</loc>
+        <loc>https://affine.pro/blog/pokemon-team-planners</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2689,6 +2689,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/checklist-for-mlb-teams-i-have-seen</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/checklist-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

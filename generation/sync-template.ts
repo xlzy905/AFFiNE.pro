@@ -23,6 +23,8 @@ const reader = instantiateReader({
 const R2_BUCKET = "affine-cdn";
 const R2_PREFIX = "template-snapshots";
 
+const USE_CACHE = process.env.USE_CACHE !== "false";
+
 const uploadTemplateSnapshot = (() => {
   const r2 = new S3Client({
     region: "auto",
@@ -71,8 +73,8 @@ async function crawlTemplates() {
     throw new Error("No pages found");
   }
 
-  const existingPageMetas = await loadPageMetas();
-  const existingTemplates = await loadContents('templates');
+  const existingPageMetas = USE_CACHE ? await loadPageMetas() : [];
+  const existingTemplates = USE_CACHE ? await loadContents('templates') : new Map<string, any>();
 
   const visitedSlugs = new Set<string>();
 
@@ -148,10 +150,6 @@ async function crawlTemplates() {
         });
 
         template.slug = template.slug.replaceAll("/", "");
-        processed.set(template.templateId, {
-          slug: template.slug,
-          title: template.title || "",
-        });
 
         t = {
           ...t,
@@ -163,6 +161,10 @@ async function crawlTemplates() {
         path.join(rootDir, "content", "templates", `${template.slug}.json`),
         stringify(t, { space: "  " })
       );
+      processed.set(template.templateId, {
+        slug: template.slug,
+        title: template.title || "",
+      });
       visitedSlugs.add(template.slug);
       console.log(`saved ${template.slug}`);
     }

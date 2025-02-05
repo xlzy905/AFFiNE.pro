@@ -1,10 +1,12 @@
-import { instantiateReader, WorkspacePageContent } from "affine-reader/blog";
+import { instantiateReader } from "affine-reader/blog";
 import fs from "fs-extra";
 import stringify from "json-stable-stringify";
 
 import path from "node:path";
 import { rootDir } from "./utils";
 import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
+
+const USE_CACHE = process.env.USE_CACHE !== "false";
 
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
@@ -31,8 +33,8 @@ async function crawlBlogs() {
     throw new Error("No pages found");
   }
 
-  const existingPageMetas = await loadPageMetas();
-  const existingBlogMetas = await loadContents('blog');
+  const existingPageMetas = USE_CACHE ? await loadPageMetas() : [];
+  const existingBlogMetas = USE_CACHE ? await loadContents('blog') : new Map<string, any>();
 
   const visitedSlugs = new Set<string>();
 
@@ -51,9 +53,8 @@ async function crawlBlogs() {
     if (existingPageMeta && existingPageMeta.updatedDate === page.updatedDate) {
       if (existingBlogMeta?.slug) {
         visitedSlugs.add(existingBlogMeta.slug);
+        processed.set(page.id, { slug: existingBlogMeta.slug, title: page.title });
       }
-
-      // skip the page that is not updated
       continue;
     }
 
@@ -69,7 +70,6 @@ async function crawlBlogs() {
       continue;
     }
     content.slug = content.slug.replaceAll("/", "");
-    processed.set(page.id, { slug: content.slug, title: page.title });
 
     const fileDist = path.join(
       rootDir,
@@ -98,6 +98,7 @@ async function crawlBlogs() {
     delete content.properties;
 
     visitedSlugs.add(content.slug);
+    processed.set(page.id, { slug: content.slug, title: page.title });
 
     await fs.writeFile(fileDist, stringify(content, { space: "  " }));
     console.log(`Saved ${page.id}`);

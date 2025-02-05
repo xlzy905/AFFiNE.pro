@@ -20,6 +20,8 @@ const reader = instantiateReader({
   blogBasePath: '/template'
 });
 
+const USE_CACHE = process.env.USE_CACHE === "false";
+
 const R2_BUCKET = "affine-cdn";
 const R2_PREFIX = "template-snapshots";
 
@@ -74,8 +76,8 @@ async function crawlTemplates() {
     throw new Error("No pages found");
   }
 
-  const existingPageMetas = await loadPageMetas();
-  const existingTemplates = await loadContents('templates-v2');
+  const existingPageMetas = USE_CACHE ? await loadPageMetas() : [];
+  const existingTemplates = USE_CACHE ? await loadContents('templates-v2') : new Map<string, any>();
 
   const visitedSlugs = new Set<string>();
 
@@ -167,10 +169,6 @@ async function crawlTemplates() {
         });
 
         newTemplate.slug = newTemplate.slug.replaceAll("/", "");
-        processed.set(newTemplate.templateId, {
-          slug: newTemplate.slug,
-          title: newTemplate.title || "",
-        });
 
         newTemplate = {
           ...newTemplate,
@@ -183,6 +181,10 @@ async function crawlTemplates() {
         path.join(rootDir, "content", "templates-v2", `${newTemplate.slug}.json`),
         stringify(newTemplate, { space: "  " })
       );
+      processed.set(newTemplate.templateId, {
+        slug: newTemplate.slug!,
+        title: newTemplate.title || "",
+      });
       visitedSlugs.add(newTemplate.slug!);
       console.log(`saved ${newTemplate.slug}`);
     }

@@ -3,6 +3,12 @@ name: Blog Localization
 on:
   # allows to manually run the job at any time
   workflow_dispatch:
+    inputs:
+      USE_CACHE:
+        description: "Whether to use cache"
+        required: false
+        type: boolean
+        default: true
 
   # # run on every push on the release branch
   # push:
@@ -21,6 +27,7 @@ env:
   R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
   R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
   R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  USE_CACHE: ${{ inputs.USE_CACHE }}
 
 jobs:
   sync-blog:

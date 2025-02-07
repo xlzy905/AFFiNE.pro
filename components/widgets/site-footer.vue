@@ -41,19 +41,23 @@
       .nav-list-wrapper.flex.justify-space-between
 
         .nav-list
-          .list-name {{ $t('client') }}
-          nuxt-link.nav-item.flex.items-center( to="/download")
-            | {{ $t('downloadApp') }}
-          nuxt-link.nav-item( to="/what-is-new") {{ $t('WhatIsNew') }}
-        .nav-list
-          .list-name {{ $t('resources') }}
-          nuxt-link.nav-item.flex( to="/pricing" ) {{ $t('price') }}
-          nuxt-link.nav-item.flex( :to="PATH.AFFiNE_DOCS" target="_blank" rel="nofollow") {{ $t('docs') }}
-          nuxt-link.nav-item.flex( to="/templates" ) Templates
-          nuxt-link.nav-item.flex( to="/about-us" ) {{ $t('aboutUs') }}
-          nuxt-link.nav-item.flex( to="/blog?tag=Release+Note" ) {{ $t('blog') }}
+          .list-name Company
           nuxt-link.nav-item.flex( to="/terms" ) {{ $t('terms') }}
           nuxt-link.nav-item.flex( to="/privacy" ) {{ $t('privacy') }}
+          nuxt-link.nav-item.flex( to="/about-us" ) {{ $t('aboutUs') }}
+
+        //- .nav-list
+        //-   .list-name {{ $t('client') }}
+        //-   nuxt-link.nav-item.flex.items-center( to="/download")
+        //-     | {{ $t('downloadApp') }}
+        //-   nuxt-link.nav-item( to="/what-is-new") {{ $t('WhatIsNew') }}
+
+        .nav-list
+          .list-name {{ $t('resources') }}
+          nuxt-link.nav-item.flex( :to="PATH.AFFiNE_DOCS" target="_blank" rel="nofollow") {{ $t('docs') }}
+          nuxt-link.nav-item.flex( to="/blog?tag=Release+Note" ) {{ $t('blog') }}
+          nuxt-link.nav-item.flex( to="/templates" ) Templates
+          nuxt-link.nav-item.flex( to="/what-is-new") {{ $t('WhatIsNew') }}
           nuxt-link.nav-item.flex( :to="PATH.AFFiNE_COMMUNITY" target="_blank" rel="nofollow") {{ $t('community') }}
 
         .nav-list

@@ -15,6 +15,8 @@
 
     overview-ai
 
+    overview-templates
+
     overview-build-in-public-light
 
     overview-user-stories-light

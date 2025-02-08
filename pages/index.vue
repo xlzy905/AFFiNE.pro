@@ -21,7 +21,7 @@
 
     overview-user-stories-light
 
-    overview-slogan-banner
+    download-banner
 
 </template>
 

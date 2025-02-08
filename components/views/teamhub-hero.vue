@@ -28,6 +28,7 @@
 import gsap from 'gsap'
 
 const $device = useDevice();
+let controlTl: gsap.core.Timeline
 
 const setupAnimation = () => {
   if ($device.isMobile) return
@@ -36,7 +37,7 @@ const setupAnimation = () => {
   const marketingCursorTl = gsap.timeline(timelineOptions)
   const developmentCursorTl = gsap.timeline(timelineOptions)
   const moreBgTl = gsap.timeline(timelineOptions)
-  const controlTl = gsap.timeline(timelineOptions)
+  controlTl = gsap.timeline(timelineOptions)
 
   marketingCursorTl
     .fromTo('.marketing-cursor', {
@@ -105,6 +106,13 @@ onActivated(() => {
   setTimeout(() => {
     setupAnimation()
   }, 500)
+})
+
+onDeactivated(() => {
+  if (controlTl) {
+    controlTl.progress(0)
+    controlTl.paused(true)
+  }
 })
 </script>
 

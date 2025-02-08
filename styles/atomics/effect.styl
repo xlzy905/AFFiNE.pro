@@ -25,3 +25,16 @@
   @keyframes anim-suspend
     50%
       transform: translateY(var(--suspend-y, 20%)) translateX(var(--suspend-x, 0%))
+
+@keyframes blinking
+  from,
+  49.8%{
+    opacity: 1;
+  }
+  49.9%,
+  99.9% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }

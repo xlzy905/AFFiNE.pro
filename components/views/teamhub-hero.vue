@@ -225,6 +225,7 @@ onDeactivated(() => {
         width: var(--width)
         height: 100%
         background: brand()
+        animation: blinking 1.2s linear infinite
 
   .hero-desc
     font-weight: 500;

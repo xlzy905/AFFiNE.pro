@@ -35,7 +35,8 @@ defineProps<{
     color: white
     min-width: 190px
 
-    &:hover
+    &:hover,
+    &:focus
       background: brand(80) !important
 
 .explore-on-desktop

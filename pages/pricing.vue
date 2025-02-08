@@ -3,12 +3,12 @@
 
   .section.section-hero
 
-  .section.section-prices.mb-70px
+  .section.section-prices
     .limit-container.flex.flex-col
       h1.ma-0.mb-6.hero-title Achieve more in less time with AFFiNE AI
       pricing-ai-section( isInPricing )
 
-  .section.section-prices
+  .section.section-prices.pt-70px( id="table" )
     .limit-container.flex.flex-col
       h1.ma-0.hero-title {{ $t('pricePage.title') }}
       .hero-desc {{ $t('pricePage.desc') }}
@@ -339,7 +339,8 @@ import { PATH, INFO, CONFIG } from '~/utils/constants';
 const { t } = useI18n();
 
 const store = useStore();
-const currentPricingType = ref('cloud');
+const route = useRoute();
+const currentPricingType = ref(route.query.type || 'cloud');
 // const currentPricingType = ref('selfhost')
 
 const isYearly = ref(true);

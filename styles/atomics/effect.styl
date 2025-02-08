@@ -18,3 +18,10 @@
 .popover-popup-leave-to
   opacity: 0
   transform: scale(0.98)
+
+.anim-suspend
+  animation: anim-suspend var(--duration, 3s) ease-in-out infinite
+
+  @keyframes anim-suspend
+    50%
+      transform: translateY(var(--suspend-y, 20%)) translateX(var(--suspend-x, 0%))

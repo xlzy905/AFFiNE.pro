@@ -22,11 +22,9 @@
               .tab-active-bg
               .tab.tab-cloud( @click="() => currentPricingType = 'cloud'" )
                 span AFFiNE.Pro
-              //- .tab.tab-selfhost( @click="() => currentPricingType = 'selfhost'" )
-              .tab.tab-selfhost.coming-soon
-                span.flex
-                  | Self Hosted(Coming soon)
-            .host-tips We host, no technical setup required.
+              .tab.tab-selfhost( @click="() => currentPricingType = 'selfhost'" )
+                  | Self Hosted
+            .host-tips {{ currentPricingType === 'cloud' ? 'We host, no technical setup required.' : 'You host, control, and are responsible for your data.' }}
 
         .mobile-version.flex-1
           el-dropdown(
@@ -43,8 +41,8 @@
                   | AFFiNE.Pro
                   .info-desc We host, no technical setup required.
                 .divider
-                el-dropdown-item
-                  | Self Hosted (Coming soon)
+                el-dropdown-item( @click="currentPricingType = 'selfhost'" )
+                  | Self Hosted
                   .info-desc You host, control, and are responsible for your data.
 
         .right-part
@@ -69,20 +67,28 @@
               nuxt-icon.text-size-18px( :name="copied ? 'tick' : 'copy'" filled)
 
             .card-header
-              .planning-name Pro
-              .planning-desc For family and small teams.
+              .planning-name FOSS
+              .planning-desc Open-Source & Self hosted
 
               .price-row.flex.items-end.gap-2
-                .price-amount
-                  span.number {{ isYearly ? '$6.75' : '$7.99' }}
-                  | &nbsp;{{ $t('pricePage.perMonth') }}
+                .price-amount Free forever
 
             .planning-list
-              .list-section Include in Community:
+              .list-section Hosted by yourself:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Everything in AFFiNE FOSS & Basic
+                .item-body Unlimited local workspace
+              .item
+                .item-icon
+                  nuxt-icon( name="Done" filled)
+                .item-body Unlimited use and Customization
+              .item
+                .item-icon
+                  nuxt-icon( name="Done" filled)
+                .item-body Unlimited Doc and Edgeless editing
+
+              .list-section Included in FOSS:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
@@ -109,66 +115,58 @@
                 .item-body Real-time Syncing & Collaboration for more people
 
             .card-footer
-              nuxt-link( :href="proActionLink" target="_blank" rel="nofollow" )
+              nuxt-link( href="https://docs.affine.pro/docs/self-host-affine" target="_blank" rel="nofollow" )
                 el-button(
                   type="primary"
                   size="action"
-                ) Upgrade
+                ) Learn more
           .price-card.type-enterprise
             .card-header
-              .planning-name Teams / Enterprise
+              .planning-name Team
               .planning-desc Best for scalable teams.
               .price-row.flex.items-end.gap-2
                 .price-amount
-                  span.number {{ isYearly ? '$12' : '$15' }}
-                  | &nbsp;{{ $t('pricePage.perMonth') }}
+                  span.number {{ isYearly ? '$10' : '$12' }}
+                  | &nbsp;per seat/month
 
             .planning-list
               .list-section Both in Teams & Enterprise:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Everything in AFFiNE Pro
+                .item-body Everything in Self Hosted FOSS
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Advanced Permission control, Page history and Review mode
+                .item-body 100 GB initial storage + 20 GB per seat
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Pay for seats, fits all team size
+                .item-body 500 MB of maximum file size
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Email & Slack Support
+                .item-body Unlimited team members (10+ seats)
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Offer K8s Support
-              .list-section Enterprise only:
+                .item-body Multiple admin roles
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body SSO Authorization
+                .item-body Priority customer support
               .item
                 .item-icon
-                  nuxt-icon( name="Done" filled)
-                .item-body Solutions & Best Practices for Dedicated needs
-              .item
-                .item-icon
-                  nuxt-icon( name="Done" filled)
-                .item-body Embed-able & Integrations with IT support
-              .item
-                .item-icon
-                  nuxt-icon( name="Done" filled)
-                .item-body White label for secondary sales.
+                .item-body
+                  | The solution you need is more complex?&nbsp;
+                  a( :href="PATH.PRICING_CONTACT_FORM_TEAM" target="_blank" rel="nofollow" ) Tell us your use case.
 
             .card-footer
-              nuxt-link( :href="PATH.PRICING_CONTACT_FORM_ENTERPRISE" target="_blank" rel="nofollow" )
+              nuxt-link( :href="isYearly ? PATH.PRICING_SELFHOST_YEARLY : PATH.PRICING_SELFHOST_MONTHLY" target="_blank" rel="nofollow" )
                 el-button(
                   type="primary"
                   size="action"
-                ) Tell Us Your Use Case
+                ) Upgrade
       template( v-if="currentPricingType === 'cloud'" )
         .prices-list.flex
           .price-card.type-free
@@ -507,9 +505,10 @@ useHead({
     &.active-selfhost
       .tab-selfhost
         color: #424149
+
       .tab-active-bg
         width: 180px
-        transform: translateX(118px)
+        transform: translateX(176px)
 
     .tab-active-bg
       position absolute
@@ -545,8 +544,8 @@ useHead({
     padding-bottom: 16px
 
   .selfhost-list
-    max-width: 700px
-    margin: 0 auto
+    max-width: 699px + 16px
+    // margin: 0 auto
 
   .price-card
     flex: 1

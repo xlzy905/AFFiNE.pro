@@ -41,22 +41,22 @@ const templates = [
   {
     name: 'Digital Planner',
     icon: 'template-digital-planner',
-    path: '/templates',
+    path: '/templates/category-digital-planner',
   },
   {
     name: 'Story Board',
     icon: 'template-story-board',
-    path: '/templates',
+    path: '/templates/category-storyboard-template',
   },
   {
     name: 'Cornell Notes',
     icon: 'template-cornell-notes',
-    path: '/templates',
+    path: '/templates/category-cornell-notes-template',
   },
   {
     name: 'One Pager',
     icon: 'template-one-pager',
-    path: '/templates',
+    path: '/templates/category-one-pager-template-free',
   },
   {
     type: 'placeholder'
@@ -68,17 +68,17 @@ const templates = [
   {
     name: 'Checklist',
     icon: 'template-checkbox',
-    path: '/templates',
+    path: '/templates/category-checklist-template',
   },
   {
-    name: 'Cornell Notes2',
+    name: 'Vision Board',
     icon: 'template-pen',
-    path: '/templates',
+    path: '/templates/category-vision-board-template',
   },
   {
     name: 'Itinerary template',
     icon: 'template-itinerary',
-    path: '/templates',
+    path: '/templates/category-free-travel-itinerary-template',
   },
   {
     type: 'placeholder'

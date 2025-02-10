@@ -347,6 +347,10 @@ const couponCode = ref('BF23');
 
 const isMonthly = computed(() => !isYearly.value);
 
+watch(() => route.query.type, (type) => {
+  currentPricingType.value = type || 'cloud';
+});
+
 const proActionLink = computed(() => {
   let baseLink = isMonthly.value
     ? PATH.PRICING_PRO_MONTHLY

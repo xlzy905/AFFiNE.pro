@@ -10,14 +10,14 @@
         .upper-part
           h3.card-title.headline-2 Cloud Version
           .card-desc Pay per user/month with a free trial to get started
-        nuxt-link.card-action( to="/pricing?type=cloud#table" ) See Detailed Pricing
+        nuxt-link.card-action( to="/pricing/?type=cloud#table" ) See Detailed Pricing
 
       .pricing-card.pricing-selfhosted
         .cover-part
         .upper-part
           h3.card-title.headline-2 Self Hosted
           .card-desc Pay per user/month with a free trial to get started
-        nuxt-link.card-action( to="/pricing?type=selfhost#table" ) See Detailed Pricing
+        nuxt-link.card-action( to="/pricing/?type=selfhost#table" ) See Detailed Pricing
 </template>
 
 <script setup lang="ts">

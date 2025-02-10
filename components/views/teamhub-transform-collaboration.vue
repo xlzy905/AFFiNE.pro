@@ -11,7 +11,7 @@
             .para-base.list-item Real-time Collaboration
             .para-base.list-item Data Backups
             .para-base.list-item Scalability
-        nuxt-link.card-action( to="/pricing" ) Start with Cloud for Free
+        nuxt-link.card-action( :to="PATH.LOGIN" target="_blank") Start with Cloud for Free
 
       .collaboration-card.collaboration-selfhosted
         .upper-part
@@ -20,10 +20,11 @@
             .para-base.list-item Data Security
             .para-base.list-item Data Backups
             .para-base.list-item Scalability
-        nuxt-link.card-action( to="/pricing" ) Explore Self-Hosting Options
+        nuxt-link.card-action( to="https://docs.affine.pro/docs/self-host-affine" target="_blank" ref="nofollow" ) Explore Self-Hosting Options
 </template>
 
 <script setup lang="ts">
+import { PATH } from '~/utils/constants';
 </script>
 
 <style lang="stylus">

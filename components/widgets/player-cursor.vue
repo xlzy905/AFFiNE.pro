@@ -8,7 +8,7 @@
       v-if="arrow"
       :class="`dir-${arrow}`"
     )
-    .player-name {{ name }}
+    .player-name( :data-name="name" )
 </template>
 
 <script setup lang="ts">
@@ -47,6 +47,9 @@ const $el = ref()
     line-height: 1;
     letter-spacing: -0.02em;
     box-shadow: 0px 1.16667px 7px rgba(0, 0, 0, 0.16);
+
+    &::before
+      content: attr(data-name)
 
   .icon-player-arrow
     filter: drop-shadow(0px 2.33333px 4.66667px rgba(0, 0, 0, 0.2));

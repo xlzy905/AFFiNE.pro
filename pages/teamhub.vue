@@ -16,7 +16,13 @@
 
 <script lang="ts" setup>
 useHead({
-  title: 'Teamhub'
+  title: 'Affine Team Edition: Seamless Collaboration on Documents and Whiteboards',
+  meta: [
+    {
+      name: 'description',
+      content: 'Affine for Teams enables your group to easily communicate on papers and whiteboards. Unite your ideas, streamline operations, and improve teamwork.',
+    },
+  ],
 })
 </script>
 

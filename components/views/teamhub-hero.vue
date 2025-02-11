@@ -12,7 +12,7 @@
           span.inline-more
             span.more-text more
             client-only
-              .more-bg
+              .more-bg.pre-enter
                 .more-end-cursor
                 player-cursor.enther-cursor( name="Enther" fill="#1e96eb" )
       p.hero-desc Collaborate seamlessly with AFFiNE Team, available in Cloud and Self-Hosted versions
@@ -46,7 +46,7 @@ const setupAnimation = () => {
     }, {
       x: 0,
       y: 0,
-      duration: 0.8
+      duration: 0.5
     })
     .fromTo('.marketing-cursor .icon-player-arrow', {
       opacity: 0,
@@ -58,9 +58,9 @@ const setupAnimation = () => {
     }, {
       scale: 1,
       opacity: 1,
-      duration: 0.8,
+      duration: 0.5,
       transformOrigin: 'right bottom'
-    }, '<0.3')
+    }, '<0.2')
 
     developmentCursorTl
       .fromTo('.development-cursor', {
@@ -69,7 +69,7 @@ const setupAnimation = () => {
       }, {
         x: 0,
         y: 0,
-        duration: 0.8
+        duration: 0.5
       })
       .fromTo('.development-cursor .icon-player-arrow', {
         opacity: 0,
@@ -81,23 +81,23 @@ const setupAnimation = () => {
       }, {
         scale: 1,
         opacity: 1,
-        duration: 0.8,
+        duration: 0.5,
         transformOrigin: 'left top'
-      }, '<0.3')
+      }, '<0.2')
 
   moreBgTl
     .fromTo('.more-bg', {
       opacity: 0,
-      width: '0'
+      // width: '0'
     }, {
       opacity: 1,
       width: '100%'
     })
 
   controlTl
-    .to(marketingCursorTl, { progress: 1, duration: 0.7, ease: 'linear' })
-    .to(developmentCursorTl, { progress: 1, duration: 0.7, ease: 'linear' }, '<0.3')
-    .to(moreBgTl, { progress: 1, duration: 0.8, ease: 'linear' })
+    .to(moreBgTl, { progress: 1, duration: 0.5, ease: 'linear' })
+    .to(marketingCursorTl, { progress: 1, duration: 0.7, ease: 'linear' }, '<0.3')
+    .to(developmentCursorTl, { progress: 1, duration: 0.7, ease: 'linear' }, '<0.2')
 
   controlTl.play()
 }
@@ -207,7 +207,9 @@ onDeactivated(() => {
         width: 100%
         height: 78%
         bottom: 0
-        opacity 0
+
+        &.pre-enter
+          opacity 0
 
       .enther-cursor
         position absolute
@@ -225,7 +227,7 @@ onDeactivated(() => {
         width: var(--width)
         height: 100%
         background: brand()
-        animation: blinking 1.2s linear infinite
+        // animation: blinking 1.2s linear infinite
 
   .hero-desc
     font-weight: 500;

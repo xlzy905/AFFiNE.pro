@@ -8,10 +8,10 @@
           v-for="logo in logos"
         )
           .item-logo.item-neutral(
-            :style="{ backgroundImage: `url(/trusted-by/neutral/${logo}.png)` }"
+            :style="{ backgroundImage: `url(/trusted-by/neutral/${logo})` }"
           )
           .item-logo.item-colorful(
-            :style="{ backgroundImage: `url(/trusted-by/colorful/${logo}.png)` }"
+            :style="{ backgroundImage: `url(/trusted-by/colorful/${logo})` }"
           )
   .mobile-wall
     client-only
@@ -24,7 +24,7 @@
         img(
           v-for="(logo, index) in logos"
           :key="logo"
-          :src="`/trusted-by/neutral/${logo}.png`"
+          :src="`/trusted-by/neutral/${logo}`"
         )
 </template>
 
@@ -33,21 +33,21 @@ import { VueMarqueeSlider } from 'vue3-marquee-slider'
 import '@/node_modules/vue3-marquee-slider/dist/style.css'
 
 const logos = ref([
-  'google',
-  'microsoft',
-  'amazon',
-  'meta',
-  'ibm',
-  'tiktok',
-  'shopify',
-  'apache',
-  'cloud303',
-  'sap',
-  'michigan',
-  'arqcap',
-  'naucmeit',
-  'keyman',
-  'bonfireleads',
+  'google.png',
+  'microsoft.png',
+  'amazon.png',
+  'meta.png',
+  'ibm.png',
+  'tiktok.png',
+  'shopify.png',
+  'apache.png',
+  'oxford.svg',
+  'sap.png',
+  'michigan.png',
+  'plaudai.svg',
+  'void.svg',
+  'zephyr.svg',
+  'bonfireleads.png',
 ])
 </script>
 

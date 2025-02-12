@@ -51,6 +51,8 @@ export const PATH = {
   PRICING_BELIEVER_TIER: __STAGING__
     ? 'https://affine.fail/subscribe?plan=pro&recurring=lifetime'
     : 'https://app.affine.pro/subscribe?plan=pro&recurring=lifetime',
+  PRICING_SELFHOST_MONTHLY: 'https://app.affine.pro/subscribe?product=monthly-selfhost-team',
+  PRICING_SELFHOST_YEARLY: 'https://app.affine.pro/subscribe?product=yearly-selfhost-team',
   GET_NOTIFIED_FORM: 'https://6dxre9ihosp.typeform.com/to/B8IHwuyy',
   COPILOT_FORM: 'https://6dxre9ihosp.typeform.com/to/MjaI1NIV',
 };

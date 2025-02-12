@@ -288,19 +288,6 @@ onMounted(() => {
     padding-left: 12px
     padding-right: 12px
 
-  @keyframes blinking
-    from,
-    49.8%{
-      opacity: 1;
-    }
-    49.9%,
-    99.9% {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-
   cursor()
     animation: blinking 1s linear infinite
 

@@ -20,10 +20,32 @@
         .menu-list
           //- .nav-item
           //-   nuxt-link( to="/" ) {{ $t('home') }}
-          .nav-item
-            scroll-link.flex.items-center.gap-4px( to="/ai" )
-              | AFFiNE AI
-              .new-label NEW
+
+          .nav-item.community-item(
+            @click="isOpenProduct = !isOpenProduct" ref="ignoreProductRef"
+            :class="{ 'is-open-community': isOpenProduct }"
+          )
+            .nav-handler.handler-row.justify-between.items-center.w-full(
+            )
+              | Product
+              nuxt-icon.arrow-icon.text-size-20px( name="ArrowRightSmall2" filled )
+
+            el-collapse-transition
+              .flex.flex-col( v-show="isOpenProduct" )
+                product-navbar
+
+          .nav-item.community-item(
+            @click="isOpenTeam = !isOpenTeam" ref="ignoreTeamRef"
+            :class="{ 'is-open-community': isOpenTeam }"
+          )
+            .nav-handler.handler-row.justify-between.items-center.w-full(
+            )
+              | Team
+              nuxt-icon.arrow-icon.text-size-20px( name="ArrowRightSmall2" filled )
+
+            el-collapse-transition
+              .flex.flex-col( v-show="isOpenTeam" )
+                team-navbar
 
           .nav-item.community-item(
             @click="isOpenResource = !isOpenResource" ref="ignoreResElRef"
@@ -59,9 +81,13 @@ const { locale, setLocaleCookie } = useI18n();
 
 const menuHandler = ref(null);
 const ignoreElRef = ref(null);
+const ignoreTeamRef = ref(null);
+const ignoreProductRef = ref(null);
 const ignoreResElRef = ref(null);
 const isOpen = ref(false);
 const isOpenCommunity = ref(false);
+const isOpenProduct = ref(false);
+const isOpenTeam = ref(false);
 const isOpenResource = ref(false);
 
 onClickOutside(
@@ -71,7 +97,7 @@ onClickOutside(
     isOpenCommunity.value = false;
     isOpenResource.value = false;
   },
-  { ignore: [ignoreElRef, ignoreResElRef] }
+  { ignore: [ignoreElRef, ignoreTeamRef, ignoreProductRef, ignoreResElRef] }
 );
 
 watch(locale, () => {
@@ -85,7 +111,9 @@ watch(locale, () => {
   .navbar-placeholder
     height: var(--navbar-height)
 
-  .community-navbar
+  .community-navbar,
+  .team-navbar,
+  .product-navbar
     margin: 0 -12px
 
   .community-item

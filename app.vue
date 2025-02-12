@@ -143,11 +143,24 @@ a
   line-height: 1.333
   letter-spacing: -0.02em
 
+.headline-5
+  font-weight: 500;
+  font-size: fv(24, 36);
+  line-height: 119%;
+  letter-spacing: -0.03em;
+  color: #000000;
+
 .headline-6
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.28px;
+
+.para-base
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #424149;
 
 // Page
 .page

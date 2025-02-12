@@ -50,9 +50,50 @@
             )
 
           .nav-item
-            scroll-link.flex.items-center.gap-4px( to="/ai" )
-              | AFFiNE AI
-              .new-label NEW
+            el-popover(
+              trigger="hover"
+              transition="popover-popup"
+              popper-class="community-popper"
+              v-model:visible="isOpenProduct"
+              width="400px"
+              placement="bottom-start"
+              :show-arrow="false"
+              :offset="8"
+            )
+              template( #reference )
+                a.handler-row.gap-1.items-center(
+                  @click="isOpenProduct = !isOpenProduct"
+                  :class="{ 'is-open': isOpenProduct }"
+                )
+                  | Product
+                  nuxt-icon.arrow-icon.text-size-16px( name="ArrowRightSmall2" filled )
+
+              product-navbar(
+                :onClick="() => isOpenProduct = false"
+              )
+
+          .nav-item
+            el-popover(
+              trigger="hover"
+              transition="popover-popup"
+              popper-class="community-popper"
+              v-model:visible="isOpenTeam"
+              width="400px"
+              placement="bottom-start"
+              :show-arrow="false"
+              :offset="8"
+            )
+              template( #reference )
+                a.handler-row.gap-1.items-center(
+                  @click="isOpenTeam = !isOpenTeam"
+                  :class="{ 'is-open': isOpenTeam }"
+                )
+                  | Team
+                  nuxt-icon.arrow-icon.text-size-16px( name="ArrowRightSmall2" filled )
+
+              team-navbar(
+                :onClick="() => isOpenTeam = false"
+              )
 
           .nav-item
             scroll-link( to="/download" ) {{ $t('download') }}
@@ -122,6 +163,8 @@ const lottieIcon = ref<any>(null);
 const lottieLoaded = ref(false);
 const isMounted = ref(false);
 const isOpenLogoPhonetic = ref(false);
+const isOpenProduct = ref(false);
+const isOpenTeam = ref(false);
 const isOpenCommunity = ref(false);
 const isOpenResource = ref(false);
 const activeTab = ref(null);
@@ -385,7 +428,7 @@ $mediaCompactHeader = '(max-width: 1280px)'
   .static-link
     null
 
-  .scroll-link
+  .menu-list .scroll-link
     &.is-active,
     &:hover
       color: black

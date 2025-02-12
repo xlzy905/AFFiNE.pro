@@ -43,7 +43,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/daily-to-do-list-categories</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/homework-helper-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/homework-helper-usage</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -89,6 +99,26 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/rate-my-pokemon-team</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/to-do-board</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/to-do-list-board</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/to-do-list-notebook</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/travel-itinerary-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

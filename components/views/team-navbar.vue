@@ -25,7 +25,7 @@ const props = defineProps<{
 const navItems = [
   {
     name: 'Teamhub',
-    desc: 'Collaborate seamlessly with AFFiNE Team',
+    desc: 'Unified Team Document Space',
     icon: 'Page',
     link: '/teamhub'
   },

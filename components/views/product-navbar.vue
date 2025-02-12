@@ -25,7 +25,7 @@ const props = defineProps<{
 const navItems = [
   {
     name: 'AFFiNE AI',
-    desc: 'Your AI Partner Helps You Better',
+    desc: 'Create Smarter with AI',
     icon: 'AI-blue',
     link: '/ai'
   },

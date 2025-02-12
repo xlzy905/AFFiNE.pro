@@ -26,7 +26,7 @@ const navItems = [
   {
     name: 'Teamhub',
     desc: 'Unified Team Document Space',
-    icon: 'Page',
+    icon: 'Collaboration',
     link: '/teamhub'
   },
 ]
@@ -61,7 +61,7 @@ const navItems = [
 
     .nuxt-icon
       font-size: fluid-value(20, 24)
-      color: #77757D99
+      color: #7A7A7A
       transition: 218ms
 
     &:hover

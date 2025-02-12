@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Feb 2025 10:14:04 GMT</lastBuildDate>
-    <pubDate>Wed, 12 Feb 2025 10:14:04 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2025 10:29:41 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2025 10:29:41 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -285,6 +285,15 @@
       <link>https://affine.pro/blog/student-assignment-tracker</link>
       <guid isPermaLink="true">https://affine.pro/blog/student-assignment-tracker</guid>
       <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Digital Vision Board Inspiration for Lasting Motivation</title>
+      <description><![CDATA[Learn how to create a digital vision board to visualize goals, find inspiration, and stay motivated with practical tips and tools.]]></description>
+      <link>https://affine.pro/blog/digital-vision-board-tips</link>
+      <guid isPermaLink="true">https://affine.pro/blog/digital-vision-board-tips</guid>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
     </item>
     

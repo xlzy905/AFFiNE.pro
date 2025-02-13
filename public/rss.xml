@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 13 Feb 2025 08:29:24 GMT</lastBuildDate>
-    <pubDate>Thu, 13 Feb 2025 08:29:24 GMT</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2025 08:48:19 GMT</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2025 08:48:19 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -320,6 +320,15 @@
       <description><![CDATA[Learn how to create a digital vision board to visualize goals, find inspiration, and stay motivated with practical tips and tools.]]></description>
       <link>https://affine.pro/blog/digital-vision-board-tips</link>
       <guid isPermaLink="true">https://affine.pro/blog/digital-vision-board-tips</guid>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>How to use template in AFFINE？</title>
+      <description><![CDATA[How to use template in AFFiNE? Feel Free to check out this guideline blog.]]></description>
+      <link>https://affine.pro/blog/how-to-use-template</link>
+      <guid isPermaLink="true">https://affine.pro/blog/how-to-use-template</guid>
       <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
     </item>

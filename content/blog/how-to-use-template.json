@@ -1,0 +1,39 @@
+{
+  "author": "Allen",
+  "authors": [
+    "Allen"
+  ],
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=",
+  "coverAlt": "",
+  "createDate": 1739243114544,
+  "created": 1734480000000,
+  "description": "How to use template in AFFiNE? Feel Free to check out this guideline blog.",
+  "guid": "uJFay7kmCMPmxjs8LUf8F",
+  "id": "uJFay7kmCMPmxjs8LUf8F",
+  "layout": "blog",
+  "linkedPageIds": [
+    "dNSVpbvcg-GG3qmb6yBbM",
+    "H5ha0c6zgnJERd7R2xxnH",
+    "ceoZ36xyhohor0lsM_RRB"
+  ],
+  "md": "## How to Save a Template\n\n\nOpen the page's Property and check the Template option.\n\n\n\n![mw1HTEj6nP40PfzBYCEelZC51hLcmG0gYCVkpLCsrR8=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/mw1HTEj6nP40PfzBYCEelZC51hLcmG0gYCVkpLCsrR8=)\n\n\n* Open the Property from the document's top bar and select the Template checkbox.\n\n\n\n![fbNEp0u_w72qwgl0zKGmb9lIIV0kYbsOydVJZDFm8Uc=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/fbNEp0u_w72qwgl0zKGmb9lIIV0kYbsOydVJZDFm8Uc=)\n\n\n* Open Property in the doc info area and select Template.\n\n\n\n![Ny34Y_J97aBoVr3smiG0ajPlahsgv756T_rsfLNNfps=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Ny34Y_J97aBoVr3smiG0ajPlahsgv756T_rsfLNNfps=)\n\n\nOnce checked, a Template edit option will appear at the top, indicating that your Template setting is active.\n\n\n## How to Use a Template for Creation\n\n\nIn the product, you can use different entry points to create documents with a Template. Specifically:\n\n\n### Using a Template in a Blank Document\n\n\n\n![Rdmb1qVhNJYTNQ1-LoGYEwtb3224yxczXYUzNzi2HXI=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Rdmb1qVhNJYTNQ1-LoGYEwtb3224yxczXYUzNzi2HXI=)\n\n\nWhenever you open a new document, three new entry points will appear at the bottom, select Template.\n\n\n### Setting a Template for Journal\n\n\n\n![xIszwQuI-25Njt8L4NeI311MvqgAAA11ozHa8Ex83Dw=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/xIszwQuI-25Njt8L4NeI311MvqgAAA11ozHa8Ex83Dw=)\n\n\nA distinct template for the Journal can be added, which will be visible upon opening the Journal sidebar. After configuring it, modifications can be made at the bottom. Additionally, this can be adjusted in Settings under Workspace, Preference, and My Template.\n\n\n\n![cAOGM0McqunkU4cHm0eicr_bv2tQPXrt1HTgIQPkvpg=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/cAOGM0McqunkU4cHm0eicr_bv2tQPXrt1HTgIQPkvpg=)\n\n\n\n\n\n### Setting a Template for Every New Document\n\n\n\n![sdbvx3zFD5TEpIbnDVIh2x18IM15dhYN2q6X0M5JwWA=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/sdbvx3zFD5TEpIbnDVIh2x18IM15dhYN2q6X0M5JwWA=)\n\n\nIf you want every document to use a specific template style by default, you can enable the specified setting in Settings/Preference/My Template. Note that the Template's activation order is: Journal's Template > Doc's Template, so when you set Doc's Template, Journal will still follow Journal's Template default setting.\n\n\n### Modify the Add Button to Ask Every Time in Settings\n\n\n\n![b7bfsWScP0D-UBMDlLZtpV-xwEOQLP2Gv71GaNEL25c=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/b7bfsWScP0D-UBMDlLZtpV-xwEOQLP2Gv71GaNEL25c=)\n\n\nVersion 0.20 and above offers a new creation option. You can choose \"Ask me every time\" in Settings/Editor/New doc default mode. This way, every time you create a new file, you can choose from a blank Page, blank edgeless, and Template.\n\n\n\n![XDmxkGcsVEm2QZ8PkYHp57PTprnRO0AZzNuCH0HCZSA=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/XDmxkGcsVEm2QZ8PkYHp57PTprnRO0AZzNuCH0HCZSA=)\n\n\n## How to Adjust a Template\n\n\n\n![_aTvFQ7lwW3jOzzB-cVbAjohCreitafVygTk3jDTAi8=](https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/_aTvFQ7lwW3jOzzB-cVbAjohCreitafVygTk3jDTAi8=)\n\n\nYou can open the corresponding Template document in the All docs page to modify the Template. In this version, you can select Template at the bottom of the sidebar and directly navigate to the corresponding document for modification.\n\n\n\n\n\n## Frequently Asked Questions\n\n\n### Does the Template differentiate between edgeless and page?\n\n\nTemplates use Snapshot for import and export, so they do not differentiate between Edgeless and Page. Content from both Edgeless and Page will be added to the document.\n\n\n### How should I create a Template in Edgeless mode?\n\n\nSimply set the doc mode to Edgeless in the Property.\n\n\n### Can I directly use the official website's Templates?\n\n\nCurrently, you cannot directly use the official website's Templates within the AFFiNE App. However, you can still import them via the website's Template page and then modify the Property attributes to set it as a default Template.\n\n\n### Are the preference settings for Journal and Doc's Templates distinguished?\n\n\nYes, the Templates for Journal and Doc are independent and can be set separately.\n\n\n### Is the Template list shared across the workspace?\n\n\nYes, Templates are shared across the workspace.\n\n\n",
+  "publish": true,
+  "relatedBlogIds": [
+    "dNSVpbvcg-GG3qmb6yBbM",
+    "H5ha0c6zgnJERd7R2xxnH",
+    "ceoZ36xyhohor0lsM_RRB"
+  ],
+  "relatedBlogs": [
+    "vision-board-maker",
+    "what-to-put-on-a-vision-board",
+    "2024-best-vision-board-ideas-for-all-your-goals"
+  ],
+  "slug": "how-to-use-template",
+  "tags": [
+    "Content"
+  ],
+  "title": "How to use template in AFFINE？",
+  "updated": 1737158400000,
+  "updatedDate": 1739436224803,
+  "valid": true
+}

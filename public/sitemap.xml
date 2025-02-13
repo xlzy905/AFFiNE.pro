@@ -188,7 +188,27 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/add-check-boxes-in-canva</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/checklist-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/course-schedule-planner-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/digital-vision-board-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/wedding-planning-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

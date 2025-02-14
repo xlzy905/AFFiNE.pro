@@ -48,6 +48,16 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/build-kanban-board-in-notion</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/canvas-calendar-to-kanban</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/daily-to-do-list-categories</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -59,6 +69,16 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/homework-helper-usage</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/kanban-board-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/kanban-boards-and-eisenhower-grids</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -104,6 +124,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/rate-my-pokemon-team</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/sample-kanban-board</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

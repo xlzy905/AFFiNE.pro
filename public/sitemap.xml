@@ -148,6 +148,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/free-kanban-board-templates-examples-boost-work-efficiency</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/homework-tracker</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1628,11 +1633,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/free-kanban-board-templates-examples-boost-work-efficiency</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/top-8-microsoft-visio-alternatives-competitors-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2908,6 +2908,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/kanban-boards</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/kindergarten-supplies-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -3249,6 +3254,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/category-chore-chart</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-kanban-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

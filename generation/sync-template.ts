@@ -17,7 +17,7 @@ import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
   target: "https://app.affine.pro",
-  blogBasePath: '/template'
+  blogBasePath: "/template",
 });
 
 const R2_BUCKET = "affine-cdn";
@@ -65,6 +65,34 @@ const uploadTemplateSnapshot = (() => {
   };
 })();
 
+const validateTemplate = (template: any) => {
+  const requiredFields = [
+    "templateId",
+    "slug",
+    "title",
+    "updatedDate",
+    "templateMode",
+    "useTemplateUrl",
+    "previewUrl",
+    "cateTitle",
+    "cateName",
+    "cateSlug",
+    "cateIndex",
+    "md",
+    "publish",
+    "cover",
+    "title",
+    "description",
+  ];
+  for (const field of requiredFields) {
+    if (!Reflect.has(template, field)) {
+      console.log(`no ${field} for ${template.id}`);
+      return false;
+    }
+  }
+  return true;
+};
+
 async function crawlTemplates() {
   const processed = new Map<string, { slug: string; title: string }>();
   const pages = await reader.getDocPageMetas();
@@ -74,7 +102,9 @@ async function crawlTemplates() {
   }
 
   const existingPageMetas = USE_CACHE ? await loadPageMetas() : [];
-  const existingTemplates = USE_CACHE ? await loadContents('templates') : new Map<string, any>();
+  const existingTemplates = USE_CACHE
+    ? await loadContents("templates")
+    : new Map<string, any>();
 
   const visitedSlugs = new Set<string>();
 
@@ -124,8 +154,10 @@ async function crawlTemplates() {
         cateIndex: categoryIndex,
       };
 
-
-      if (oldUserTemplateMeta?.updatedDate !== userTemplateMeta?.updatedDate) {
+      if (
+        oldUserTemplateMeta?.updatedDate !== userTemplateMeta?.updatedDate ||
+        !t.useTemplateUrl
+      ) {
         const zip = await reader.getDocSnapshot(template.templateId);
         if (!zip) {
           console.log(`no snapshot for ${template.templateId}`);
@@ -156,6 +188,10 @@ async function crawlTemplates() {
           useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
           previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
         };
+      }
+      if (!validateTemplate(t)) {
+        console.log(`invalid template ${template.id}`);
+        throw new Error(`invalid template ${template.id}`);
       }
       await fs.writeFile(
         path.join(rootDir, "content", "templates", `${template.slug}.json`),
@@ -200,7 +236,14 @@ async function crawlTemplates() {
   for (const [id, meta] of existingTemplates.entries()) {
     if (meta.slug && !visitedSlugs.has(meta.slug)) {
       console.log(`Deleting ${meta.title} (${id})`);
-      await fs.unlink(path.join(rootDir, "content", "templates", meta.slug.replaceAll("/", "") + ".json"));
+      await fs.unlink(
+        path.join(
+          rootDir,
+          "content",
+          "templates",
+          meta.slug.replaceAll("/", "") + ".json"
+        )
+      );
     }
   }
 

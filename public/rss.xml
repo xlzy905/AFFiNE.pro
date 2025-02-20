@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 20 Feb 2025 03:40:56 GMT</lastBuildDate>
-    <pubDate>Thu, 20 Feb 2025 03:40:56 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2025 06:15:05 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2025 06:15:05 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -23,6 +23,15 @@
       <description><![CDATA[Discover versatile one pager ideas to streamline communication, enhance clarity, and boost creativity across academic, business, and creative fields.]]></description>
       <link>https://affine.pro/blog/one-pager-ideas</link>
       <guid isPermaLink="true">https://affine.pro/blog/one-pager-ideas</guid>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Mastering One-Pager Layout Ideas: Essential Elements and Design Principles</title>
+      <description><![CDATA[Master one-pager layouts with essential elements and design principles for impactful communication in business, marketing, and more.]]></description>
+      <link>https://affine.pro/blog/one-pager-layout-ideas</link>
+      <guid isPermaLink="true">https://affine.pro/blog/one-pager-layout-ideas</guid>
       <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/a0TKbLywUMbtLI3fHHlEYtFK-TtEY-Z4jcB6EE_GI6Q=" type="image/png" />
     </item>

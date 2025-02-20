@@ -43,6 +43,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/one-pager-layout-ideas</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/onepager-examples-for-students</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

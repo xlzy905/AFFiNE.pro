@@ -235,7 +235,7 @@ const handleDownloadClick = (asset: Asset, type?: string) => {
 };
 
 onBeforeMount(async () => {
-  if ($device.isSafari) {
+  if ($device.isMacOS) {
     const w = document.createElement('canvas').getContext('webgl');
     if (
       w &&

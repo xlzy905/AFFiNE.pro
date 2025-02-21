@@ -33,6 +33,31 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-answer-generator-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/ai-homework-helper-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/bachelorette-itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/itinerary-template-google-docs</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/one-pager-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -49,6 +74,26 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/onepager-examples-for-students</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/travel-itinerary-template-tips</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/trip-itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/vacation-itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/what-is-a-one-pager</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

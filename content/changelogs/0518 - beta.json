@@ -1,0 +1,21 @@
+{
+  "cover": "https://app.affine.pro/api/workspace/H6vffRmJbCfA-r3kq_36_/blob/8Bhc8ElWj7QczDMr07iJ1hj06DHhF6YIu1vKmoS2Od8=.webp",
+  "createDate": 1685502900294,
+  "date": "2023-05-18T00:00:00.000Z",
+  "description": "Seamless self-updates, local workspace storage logic,new side bars, some UI updates, blocksuite updates (enhanced editing experience), Pinboard removed, new default Avatar, and some bugs fixed.",
+  "detailLink": "https://affine.pro/blog/whats-new-affine-0518",
+  "favorite": true,
+  "guid": "gccB8ILpdX7bvgbngvoon:space:mFxgG9ppMz",
+  "id": "mFxgG9ppMz",
+  "isRootPinboard": true,
+  "linkedPageIds": [
+  ],
+  "md": "",
+  "relatedBlogIds": [
+  ],
+  "relatedBlogs": [
+  ],
+  "title": "What’s new  -  AFFiNE- 20230518",
+  "valid": false,
+  "version": "0518 - beta"
+}

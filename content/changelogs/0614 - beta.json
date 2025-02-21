@@ -1,0 +1,20 @@
+{
+  "cover": "https://app.affine.pro/api/workspace/H6vffRmJbCfA-r3kq_36_/blob/ODVElxKQM0fH_YYsvHDg6eas3d1mV5XGJFMThEEIc1Q=.webp",
+  "createDate": 1688440603343,
+  "date": "2023-06-15T00:00:00.000Z",
+  "description": "PDF export-supported, improved image preview, and more stable Notion import support, improved date picker, new prelaoding content within the edgeless mode, and some bugs fixed.",
+  "detailLink": "https://affine.pro/blog/what-is-new-affine-0615",
+  "favorite": true,
+  "guid": "gccB8ILpdX7bvgbngvoon:space:mnsoIrnP1m",
+  "id": "mnsoIrnP1m",
+  "linkedPageIds": [
+  ],
+  "md": "\n\n\n",
+  "relatedBlogIds": [
+  ],
+  "relatedBlogs": [
+  ],
+  "title": "What’s new  -  AFFiNE- 20230615",
+  "valid": false,
+  "version": "0614 - beta"
+}

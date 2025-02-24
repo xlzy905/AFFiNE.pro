@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 21 Feb 2025 11:14:59 GMT</lastBuildDate>
-    <pubDate>Fri, 21 Feb 2025 11:14:59 GMT</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2025 06:09:29 GMT</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2025 06:09:29 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>What’s New February Update</title>
+      <description><![CDATA[Affine 0.20.0 is Here: Explore new features like the AI Chat Panel, enhanced document permissions, and customizable templates to elevate your workflow and organization.]]></description>
+      <link>https://affine.pro/blog/whats-new-feb-update</link>
+      <guid isPermaLink="true">https://affine.pro/blog/whats-new-feb-update</guid>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/p2FjIjHFHxKkcTVEgxOdpEeVYIVYlo_bKphrnItZbYI=" type="image/png" />
+    </item>
     
     <item>
       <title>AI Answer Generator: Elevate Your Workflows and Achieve More</title>

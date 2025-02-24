@@ -1,0 +1,20 @@
+{
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/8RNkSysHt9hKQ5gS2yW7TiZAyJbIY6KDsNLH08voUDk=",
+  "createDate": 1740364900900,
+  "date": "2025-02-24T00:00:00.000Z",
+  "description": "**Affine 0.20.0 Update**: Unlock powerful features including user storage management, table blocks, and split view for a more efficient and immersive workspace.",
+  "detailLink": "https://affine.pro/blog/whats-new-affine-dec-update",
+  "guid": "U-R5QajqGD",
+  "id": "U-R5QajqGD",
+  "linkedPageIds": [
+  ],
+  "md": "",
+  "relatedBlogIds": [
+  ],
+  "relatedBlogs": [
+  ],
+  "title": "0.20.0",
+  "updatedDate": 1740364955057,
+  "valid": false,
+  "version": "AFFiNE-0.20.0"
+}

@@ -68,6 +68,7 @@ const teamworks = [
     flex: 1 0 40%
     overflow: hidden
     max-width: 530px
+    width: 100%
 
     @media $mediaInMobile
       &.card-0

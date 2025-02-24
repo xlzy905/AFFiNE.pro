@@ -67,8 +67,8 @@
               nuxt-icon.text-size-18px( :name="copied ? 'tick' : 'copy'" filled)
 
             .card-header
-              .planning-name FOSS
-              .planning-desc Open-Source & Self hosted
+              .planning-name Local FOSS + Cloud Basic
+              .planning-desc Code available & Self hosted.
 
               .price-row.flex.items-end.gap-2
                 .price-amount Free forever
@@ -88,7 +88,7 @@
                   nuxt-icon( name="Done" filled)
                 .item-body Unlimited Doc and Edgeless editing
 
-              .list-section Included in FOSS:
+              .list-section Included in Basic:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
@@ -171,8 +171,8 @@
         .prices-list.flex
           .price-card.type-free
             .card-header
-              .planning-name FOSS + Basic
-              .planning-desc Open-Source under MIT license.
+              .planning-name Local FOSS + Cloud Basic
+              .planning-desc Local editor with MIT license.
               .price-row.flex.items-end.gap-2
                 .price-amount Free forever
             .planning-list
